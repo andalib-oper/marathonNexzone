@@ -2,10 +2,6 @@
  $conn = mysqli_connect("localhost", "root", "", "marathon_nexzone");
 
 if(!empty($_POST)){
-    // echo '<pre>';
-    // print_r($_POST);
-    // echo '</pre>';
-    // exit();
     if($conn === false){
         die("ERROR: Could not connect. "
             . mysqli_connect_error());
