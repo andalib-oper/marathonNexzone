@@ -371,29 +371,29 @@
 
     <div class="mob-form d-sm-block d-md-none d-lg-none">
       <span class="d-block form-heading font-weight-bold">Pre-Register here for Best Offers</span>
-      <form action="submit.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
-        <input name="campaignid" type="hidden" value="2727767" /><input type="hidden" name="af5" value="" />
+      <form action="index.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
+                  <input name="campaignid" type="hidden" /><input type="hidden" name="af5" value="" />
 
-        <div class="form-group">
-          <input type="text" name="name" class="form-control" required="" placeholder="Name" />
-        </div>
-        <div class="form-group">
-          <input type="number" name="mobile" class="form-control" required="" placeholder="Mobile No" id="phone1" />
-        </div>
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" required="" placeholder="Name" />
+                  </div>
+                  <div class="form-group">
+                    <input type="number" name="phoneNumber" class="form-control" required="" placeholder="Mobile No"  />
+                  </div>
 
-        <input id="country-code-1" type="text" name="country-code" hidden style="display: none" />
-       
-      <!--   <input type="text" name="af1" value="google-ads" hidden  class="contry" style="display:none;" /> -->
-       <!--  <input type="text" name="af2" value="Marathon Nexzone " hidden  class="contry" style="display:none;" /> -->
+                  <input id="country-code-3" type="text" name="country-code" hidden style="display: none" />
+<!-- 
+        <input type="text" name="af1" value="google-ads" hidden  class="contry" style="display:none;" /> -->
+        <!-- <input type="text" name="af2" value="Marathon Nexzone " hidden  class="contry" style="display:none;" /> -->
 
-        <div class="form-group">
-          <input type="email" name="email" class="form-control" required="" placeholder="E-Mail Address" />
-        </div>
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-control" required="" placeholder="E-Mail Address" />
+                  </div>
 
-        <button type="submit" name="submit" class="btn btn-info micro-form-btn effetMoveGradient">
-          Pre-Register Now
-        </button>
-      </form>
+                  <button type="submit" class="btn btn-info micro-form-btn effetMoveGradient">
+                    Pre-Register Now
+                  </button>
+                </form>
     </div>
     <section class="section shadow-sm lazyloaded" id="overview">
       <span class="head text-capitalize d-none d-md-block">Overview</span>
@@ -912,27 +912,29 @@
         </button>
       </div>
       <span class="d-block form-heading font-weight-bold my-2">Pre-Register here for Best Offers</span>
-      <form action="submit.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
-        <input name="campaignid" type="hidden" value="2727767" /><input type="hidden" name="af5" value="" />
-        <div class="form-group">
-          <input type="text" name="name" class="form-control" required="" placeholder="Name" />
-        </div>
-        <div class="form-group">
-          <input type="number" name="mobile" class="form-control" required="" placeholder="Mobile No" id="phone2" />
-        </div>
+      <form action="index.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
+                  <input name="campaignid" type="hidden" /><input type="hidden" name="af5" value="" />
 
-        <input id="country-code-2" type="text" name="country-code" hidden style="display: none" />
-        <!-- <input type="text" name="af1" value="google-ads" hidden  class="contry" style="display:none;" /> -->
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" required="" placeholder="Name" />
+                  </div>
+                  <div class="form-group">
+                    <input type="number" name="phoneNumber" class="form-control" required="" placeholder="Mobile No"  />
+                  </div>
+
+                  <input id="country-code-3" type="text" name="country-code" hidden style="display: none" />
+<!-- 
+        <input type="text" name="af1" value="google-ads" hidden  class="contry" style="display:none;" /> -->
         <!-- <input type="text" name="af2" value="Marathon Nexzone " hidden  class="contry" style="display:none;" /> -->
 
-        <div class="form-group">
-          <input type="email" name="email" class="form-control" required="" placeholder="E-Mail Address" />
-        </div>
+                  <div class="form-group">
+                    <input type="email" name="email" class="form-control" required="" placeholder="E-Mail Address" />
+                  </div>
 
-        <button type="submit" name="submit" class="btn btn-info micro-form-btn effetMoveGradient">
-          Pre-Register Now
-        </button>
-      </form>
+                  <button type="submit" class="btn btn-info micro-form-btn effetMoveGradient">
+                    Pre-Register Now
+                  </button>
+                </form>
     </div>
     <ul class="mob-action nav nav-fill d-sm-block d-lg-none">
       <li class="nav-item" onclick="javascript:location.href='tel:+919082781473'">
@@ -978,14 +980,14 @@
                 <img src="assets/img/logo.png" class="modal-logo" />
                 <span class="modal-title-secondary">Register here and Avail the
                   <span class="text-danger">Best Offers!!</span></span>
-                <form action="submit.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
-                  <input name="campaignid" type="hidden" value="2727767" /><input type="hidden" name="af5" value="" />
+                  <form action="index.php" method="post" name="Query" id="contact_form" pix-confirm="hidden_pix_15">
+                  <input name="campaignid" type="hidden" /><input type="hidden" name="af5" value="" />
 
                   <div class="form-group">
                     <input type="text" name="name" class="form-control" required="" placeholder="Name" />
                   </div>
                   <div class="form-group">
-                    <input type="number" name="mobile" class="form-control" required="" placeholder="Mobile No" id="phone3" />
+                    <input type="number" name="phoneNumber" class="form-control" required="" placeholder="Mobile No"  />
                   </div>
 
                   <input id="country-code-3" type="text" name="country-code" hidden style="display: none" />
@@ -997,7 +999,7 @@
                     <input type="email" name="email" class="form-control" required="" placeholder="E-Mail Address" />
                   </div>
 
-                  <button type="submit" name="submit" class="btn btn-info micro-form-btn effetMoveGradient">
+                  <button type="submit" class="btn btn-info micro-form-btn effetMoveGradient">
                     Pre-Register Now
                   </button>
                 </form>
@@ -1095,8 +1097,15 @@ Digital Media Planned by: <a href="http://digitalrubix.com/"><b>Digital Rubix</b
       changeMobileInput("phone3", "country-code-3");
     });
   </script>
-
-
 </body>
 
 </html>
+<?php
+    $con=mysqli_connect("localhost","root","");
+    mysqli_select_db($con,"marathon_nexzone");
+
+    if(!empty($_POST)){
+    mysqli_query($con, "insert pre_register values('$_POST[campaignid]','$_POST[name]','$_POST[phoneNumber]','$_POST[email]')");
+  }
+  mysqli_close($con);
+?>
